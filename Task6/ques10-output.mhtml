@@ -1,0 +1,28 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: file:///D:/Task6/ques10.html
+Subject: Highlight Text Example
+Date: Thu, 11 Jul 2024 20:48:56 +0530
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--69CaI2K4wntVSCYFDaT7uRWneInkOGMEFbD9H3DjcC----"
+
+
+------MultipartBoundary--69CaI2K4wntVSCYFDaT7uRWneInkOGMEFbD9H3DjcC----
+Content-Type: text/html
+Content-ID: <frame-6B2BBB4E22F5D52AE0469DDC90ACB5A2@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///D:/Task6/ques10.html
+
+<!DOCTYPE html><html lang=3D"en"><head><meta http-equiv=3D"Content-Type" co=
+ntent=3D"text/html; charset=3DUTF-8">
+   =20
+    <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=
+=3D1.0">
+    <title>Highlight Text Example</title>
+</head>
+<body>
+    <p>HTML &amp; CSS is <mark>awesome</mark></p>
+
+</body></html>
+------MultipartBoundary--69CaI2K4wntVSCYFDaT7uRWneInkOGMEFbD9H3DjcC------

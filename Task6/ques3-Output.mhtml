@@ -1,0 +1,94 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: file:///D:/Task6/ques3Output.html
+Subject: Contact Us
+Date: Thu, 11 Jul 2024 20:35:28 +0530
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--BdK71sb71lT8JpEKpDcQnyv8AMWN7q0o3PE6j3gOhC----"
+
+
+------MultipartBoundary--BdK71sb71lT8JpEKpDcQnyv8AMWN7q0o3PE6j3gOhC----
+Content-Type: text/html
+Content-ID: <frame-3F8E3AEB11D135803F9FA976DE474919@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///D:/Task6/ques3Output.html
+
+<!DOCTYPE html><!-- saved from url=3D(0027)file:///D:/Task6/ques3.html --><=
+html lang=3D"en"><head><meta http-equiv=3D"Content-Type" content=3D"text/ht=
+ml; charset=3DUTF-8"><link rel=3D"stylesheet" type=3D"text/css" href=3D"cid=
+:css-a3c1a802-d4c9-4731-997c-3b1f72d7e23e@mhtml.blink" />
+   =20
+    <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=
+=3D1.0">
+    <title>Contact Us</title>
+   =20
+</head>
+<body>
+    <div class=3D"form-container">
+        <h2>Contact Us</h2>
+        <form>
+            <label for=3D"name">Name:</label>
+            <input type=3D"text" id=3D"name" name=3D"name" required=3D"">
+
+            <label for=3D"name">Father Name:</label>
+            <input type=3D"text" id=3D"name" name=3D"name" required=3D"">
+
+            <label for=3D"dob">Date of Birth:</label>
+            <input type=3D"date" id=3D"dob" name=3D"dob" required=3D"">
+
+            <label for=3D"email">Email:</label>
+            <input type=3D"email" id=3D"email" name=3D"email" required=3D""=
+>
+
+            <label for=3D"phone">Phone:</label>
+            <input type=3D"tel" id=3D"phone" name=3D"phone" required=3D"">
+
+       =20
+            <label>Gender:</label>
+                <input type=3D"radio" id=3D"male" name=3D"gender" value=3D"=
+male" required=3D"">
+                <label for=3D"male">Male</label>
+                <input type=3D"radio" id=3D"female" name=3D"gender" value=
+=3D"female" required=3D"">
+                <label for=3D"female">Female</label>
+                <input type=3D"radio" id=3D"other" name=3D"gender" value=3D=
+"other" required=3D"">
+                <label for=3D"other">Other</label>
+
+
+            <button type=3D"submit">Submit</button>
+        </form>
+    </div>
+
+
+</body></html>
+------MultipartBoundary--BdK71sb71lT8JpEKpDcQnyv8AMWN7q0o3PE6j3gOhC----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-a3c1a802-d4c9-4731-997c-3b1f72d7e23e@mhtml.blink
+
+@charset "utf-8";
+
+body { font-family: Arial, sans-serif; background-color: rgb(37, 39, 129); =
+display: flex; justify-content: center; align-items: center; height: 100vh;=
+ margin: 0px; }
+
+.form-container { background-color: rgb(255, 255, 255); padding: 20px; bord=
+er-radius: 10px; box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 10px; width: 400px;=
+ }
+
+h2 { text-align: center; margin-bottom: 20px; }
+
+label { display: block; margin-bottom: 5px; }
+
+input[type=3D"text"], input[type=3D"email"], input[type=3D"tel"], input[typ=
+e=3D"date"], textarea { width: 100%; padding: 10px; margin-bottom: 10px; bo=
+rder: 1px solid rgb(204, 204, 204); border-radius: 5px; box-sizing: border-=
+box; }
+
+button { background-color: rgb(76, 175, 80); color: white; padding: 10px; b=
+order: none; border-radius: 5px; cursor: pointer; width: 100%; }
+
+button:hover { background-color: rgb(69, 160, 73); }
+------MultipartBoundary--BdK71sb71lT8JpEKpDcQnyv8AMWN7q0o3PE6j3gOhC------

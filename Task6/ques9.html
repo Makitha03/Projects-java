@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form with Default Values</title>
+</head>
+<body>
+    <form action="submit" method="post">
+        <!-- Text Input -->
+        <label for="text-input">Text Input:</label>
+        <input type="text" id="text-input" name="text-input" value="Default name"><br><br>
+
+        <!-- Password Input -->
+        <label for="password-input">Password Input:</label>
+        <input type="password" id="password-input" name="password-input" value="defaultpassword"><br><br>
+
+        <!-- Email Input -->
+        <label for="email-input">Email Input:</label>
+        <input type="email" id="email-input" name="email-input" value="example@example.com"><br><br>
+
+        <!-- Number Input -->
+        <label for="number-input">Number Input:</label>
+        <input type="number" id="number-input" name="number-input" value="42"><br><br>
+
+        <!-- Date Input -->
+        <label for="date-input">Date Input:</label>
+        <input type="date" id="date-input" name="date-input" value="2004-03-04"><br><br>
+
+        <!-- Radio Button -->
+        <label>Radio Button:</label>
+        <input type="radio" id="radio1" name="radio-input" value="option1" checked>
+        <label for="radio1">Option 1</label>
+        <input type="radio" id="radio2" name="radio-input" value="option2">
+        <label for="radio2">Option 2</label><br><br>
+
+        <!-- Checkbox -->
+        <label for="checkbox-input">Checkbox:</label>
+        <input type="checkbox" id="option1" name="option1" value="Bike">
+        <label for="vehicle1">Option-1</label>
+        <input type="checkbox" id="option2" name="option2" value="Car">
+        <label for="vehicle2">Option-2</label><br><br><br>
+        <!-- Select Dropdown -->
+        <label for="select-input">Select Dropdown:</label>
+        <select id="select-input" name="select-input">
+            <option value="option1" selected>Option 1</option>
+            <option value="option2">Option 2</option>
+            <option value="option3">Option 3</option>
+        </select><br><br>
+
+        <!-- Textarea -->
+        <label for="textarea-input">Textarea:</label>
+        <textarea id="textarea-input" name="textarea-input">Default Text</textarea><br><br>
+
+        <!-- Submit Button -->
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

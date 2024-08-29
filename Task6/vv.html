@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nested Boxes Left and Right</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            width: 800px;
+        }
+        .left-box, .right-box {
+            width: 250px;
+            height: 400px;
+            background-color: lightblue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .inner-box {
+            width: 150px;
+            height: 150px;
+            background-color: lightgreen;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left-box">
+            <div class="inner-box"></div>
+        </div>
+        <div class="right-box">
+            <div class="inner-box"></div>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
+.first{
+    width: 500px;
+    height: 300px;  
+    padding: 50px;
+    margin-top: 200px;
+    margin-bottom:400px;
+margin-right: 500px;
+margin-left: 400px;
+    border: 1px solid blue;
+    color:blue;
+    background-color:blue;
+    }

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<!-- saved from url=(0028)file:///D:/Task6/ques11.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form with Various Input Types</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .form-container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 400px;
+        }
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        input, textarea, select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        input[type="radio"], input[type="checkbox"] {
+            width: auto;
+            margin-right: 10px;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h2>Form with Various Input Types</h2>
+        <form>
+            <label for="text">Text:</label>
+            <input type="text" id="text" name="text" value="Default text">
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" value="password123">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" value="example@example.com">
+
+            <label for="tel">Phone:</label>
+            <input type="tel" id="tel" name="tel" value="123-456-7890">
+
+            <label for="url">URL:</label>
+            <input type="url" id="url" name="url" value="http://example.com">
+
+            <label for="number">Number:</label>
+            <input type="number" id="number" name="number" value="10">
+
+            <label for="range">Range:</label>
+            <input type="range" id="range" name="range" min="0" max="100" value="50">
+
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" value="2023-07-01">
+
+            <label for="time">Time:</label>
+            <input type="time" id="time" name="time" value="12:00">
+
+            <label for="datetime-local">Date and Time:</label>
+            <input type="datetime-local" id="datetime-local" name="datetime-local" value="2023-07-01T12:00">
+
+            <label for="color">Color:</label>
+            <input type="color" id="color" name="color" value="#ff0000">
+
+            <label>Gender:</label>
+            <input type="radio" id="male" name="gender" value="male" checked="">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Other</label>
+
+            <label for="checkbox">Checkbox:</label>
+            <input type="checkbox" id="checkbox1" name="checkbox1" value="value1" checked="">
+            <label for="checkbox1">Option 1</label>
+            <input type="checkbox" id="checkbox2" name="checkbox2" value="value2">
+            <label for="checkbox2">Option 2</label>
+            <input type="checkbox" id="checkbox3" name="checkbox3" value="value3">
+            <label for="checkbox3">Option 3</label>
+
+            <label for="select">Select:</label>
+            <select id="select" name="select">
+                <option value="option1" selected="">Option 1</option>
+                <option value="option2">Option 2</option>
+                <option value="option3">Option 3</option>
+            </select>
+
+            <label for="textarea">Textarea:</label>
+            <textarea id="textarea" name="textarea" rows="4">Default text</textarea>
+
+            <label for="file">File:</label>
+            <input type="file" id="file" name="file">
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+
+</body></html>

@@ -1,0 +1,42 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: file:///D:/Task6/ques6.html
+Subject: Employee Type Form
+Date: Thu, 11 Jul 2024 20:45:35 +0530
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--Ue6fBPEbHMGkCA1v31sO8tnqIMiyH7YKkOB8sk3NRG----"
+
+
+------MultipartBoundary--Ue6fBPEbHMGkCA1v31sO8tnqIMiyH7YKkOB8sk3NRG----
+Content-Type: text/html
+Content-ID: <frame-6B2BBB4E22F5D52AE0469DDC90ACB5A2@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///D:/Task6/ques6.html
+
+<!DOCTYPE html><html lang=3D"en"><head><meta http-equiv=3D"Content-Type" co=
+ntent=3D"text/html; charset=3DUTF-8">
+   =20
+    <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=
+=3D1.0">
+    <title>Employee Type Form</title>
+</head>
+<body>
+    <h1>Employee Type Form</h1>
+    <form action=3D"file:///D:/Task6/submit" method=3D"post">
+        <label for=3D"salaried">
+            <input type=3D"radio" id=3D"salaried" name=3D"employeeType" val=
+ue=3D"Salaried">
+            Salaried
+        </label><br>
+        <label for=3D"ownBusiness">
+            <input type=3D"radio" id=3D"ownBusiness" name=3D"employeeType" =
+value=3D"Own Business">
+            Own Business
+        </label><br><br>
+       =20
+    </form>
+
+
+</body></html>
+------MultipartBoundary--Ue6fBPEbHMGkCA1v31sO8tnqIMiyH7YKkOB8sk3NRG------

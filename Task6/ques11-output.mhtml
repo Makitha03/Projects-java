@@ -1,0 +1,145 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: file:///D:/Task6/ques11.html
+Subject: Form with Various Input Types
+Date: Thu, 11 Jul 2024 20:50:03 +0530
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--dWidMWxZNdCldwsMUbuxzCHJDFcIkITO3PV8bMYRwT----"
+
+
+------MultipartBoundary--dWidMWxZNdCldwsMUbuxzCHJDFcIkITO3PV8bMYRwT----
+Content-Type: text/html
+Content-ID: <frame-6B2BBB4E22F5D52AE0469DDC90ACB5A2@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///D:/Task6/ques11.html
+
+<!DOCTYPE html><html lang=3D"en"><head><meta http-equiv=3D"Content-Type" co=
+ntent=3D"text/html; charset=3DUTF-8"><link rel=3D"stylesheet" type=3D"text/=
+css" href=3D"cid:css-406eb2ad-b817-43eb-9005-af3405bf48a4@mhtml.blink" />
+   =20
+    <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=
+=3D1.0">
+    <title>Form with Various Input Types</title>
+   =20
+</head>
+<body>
+    <div class=3D"form-container">
+        <h2>Form with Various Input Types</h2>
+        <form>
+            <label for=3D"text">Text:</label>
+            <input type=3D"text" id=3D"text" name=3D"text" value=3D"Default=
+ text">
+
+            <label for=3D"password">Password:</label>
+            <input type=3D"password" id=3D"password" name=3D"password" valu=
+e=3D"password123">
+
+            <label for=3D"email">Email:</label>
+            <input type=3D"email" id=3D"email" name=3D"email" value=3D"exam=
+ple@example.com">
+
+            <label for=3D"tel">Phone:</label>
+            <input type=3D"tel" id=3D"tel" name=3D"tel" value=3D"123-456-78=
+90">
+
+            <label for=3D"url">URL:</label>
+            <input type=3D"url" id=3D"url" name=3D"url" value=3D"http://exa=
+mple.com">
+
+            <label for=3D"number">Number:</label>
+            <input type=3D"number" id=3D"number" name=3D"number" value=3D"1=
+0">
+
+            <label for=3D"range">Range:</label>
+            <input type=3D"range" id=3D"range" name=3D"range" min=3D"0" max=
+=3D"100" value=3D"50">
+
+            <label for=3D"date">Date:</label>
+            <input type=3D"date" id=3D"date" name=3D"date" value=3D"2023-07=
+-01">
+
+            <label for=3D"time">Time:</label>
+            <input type=3D"time" id=3D"time" name=3D"time" value=3D"12:00">
+
+            <label for=3D"datetime-local">Date and Time:</label>
+            <input type=3D"datetime-local" id=3D"datetime-local" name=3D"da=
+tetime-local" value=3D"2023-07-01T12:00">
+
+            <label for=3D"color">Color:</label>
+            <input type=3D"color" id=3D"color" name=3D"color" value=3D"#ff0=
+000">
+
+            <label>Gender:</label>
+            <input type=3D"radio" id=3D"male" name=3D"gender" value=3D"male=
+" checked=3D"">
+            <label for=3D"male">Male</label>
+            <input type=3D"radio" id=3D"female" name=3D"gender" value=3D"fe=
+male">
+            <label for=3D"female">Female</label>
+            <input type=3D"radio" id=3D"other" name=3D"gender" value=3D"oth=
+er">
+            <label for=3D"other">Other</label>
+
+            <label for=3D"checkbox">Checkbox:</label>
+            <input type=3D"checkbox" id=3D"checkbox1" name=3D"checkbox1" va=
+lue=3D"value1" checked=3D"">
+            <label for=3D"checkbox1">Option 1</label>
+            <input type=3D"checkbox" id=3D"checkbox2" name=3D"checkbox2" va=
+lue=3D"value2">
+            <label for=3D"checkbox2">Option 2</label>
+            <input type=3D"checkbox" id=3D"checkbox3" name=3D"checkbox3" va=
+lue=3D"value3">
+            <label for=3D"checkbox3">Option 3</label>
+
+            <label for=3D"select">Select:</label>
+            <select id=3D"select" name=3D"select">
+                <option value=3D"option1" selected=3D"">Option 1</option>
+                <option value=3D"option2">Option 2</option>
+                <option value=3D"option3">Option 3</option>
+            </select>
+
+            <label for=3D"textarea">Textarea:</label>
+            <textarea id=3D"textarea" name=3D"textarea" rows=3D"4">Default =
+text</textarea>
+
+            <label for=3D"file">File:</label>
+            <input type=3D"file" id=3D"file" name=3D"file">
+
+            <button type=3D"submit">Submit</button>
+        </form>
+    </div>
+
+
+</body></html>
+------MultipartBoundary--dWidMWxZNdCldwsMUbuxzCHJDFcIkITO3PV8bMYRwT----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-406eb2ad-b817-43eb-9005-af3405bf48a4@mhtml.blink
+
+@charset "utf-8";
+
+body { font-family: Arial, sans-serif; background-color: rgb(244, 244, 244)=
+; display: flex; justify-content: center; align-items: center; height: 100v=
+h; margin: 0px; }
+
+.form-container { background-color: rgb(255, 255, 255); padding: 20px; bord=
+er-radius: 10px; box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 10px; width: 400px;=
+ }
+
+h2 { text-align: center; margin-bottom: 20px; }
+
+label { display: block; margin-bottom: 5px; }
+
+input, textarea, select { width: 100%; padding: 10px; margin-bottom: 10px; =
+border: 1px solid rgb(204, 204, 204); border-radius: 5px; box-sizing: borde=
+r-box; }
+
+input[type=3D"radio"], input[type=3D"checkbox"] { width: auto; margin-right=
+: 10px; }
+
+button { background-color: rgb(76, 175, 80); color: white; padding: 10px; b=
+order: none; border-radius: 5px; cursor: pointer; width: 100%; }
+
+button:hover { background-color: rgb(69, 160, 73); }
+------MultipartBoundary--dWidMWxZNdCldwsMUbuxzCHJDFcIkITO3PV8bMYRwT------

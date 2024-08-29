@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 230px;
+  background-color: #f1f1f1;
+  position: fixed; 
+  height: 100%;
+  overflow: auto; 
+}
+
+li a, .dropdown-btn {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 100%;
+}
+
+.dropdown-btn {
+  background-color: lightgrey;
+  text-decoration: none;
+}
+
+li a.active {
+  color: black;
+  text-decoration: none;
+  font-size: 15px;
+}
+.collapse{
+    background-color: lightgrey;
+    margin-left: 15px;
+}
+.collapse a {
+  color: black;
+  padding: 8px;
+  text-decoration: none;
+  display: block;
+}
+
+li a:hover:not(.active), .dropdown-btn:hover {
+  background-color: #04AA6D;
+  color: lightgrey;
+  text-decoration: none;
+}
+
+.main {
+  margin-left: 250px; 
+  padding: 16px;
+}
+
+.bg {
+  background-color: lightgray;
+  margin-left: 250px; 
+  padding: 16px;
+}
+
+.div1 {
+  margin-left: 250px; 
+  padding: 16px; 
+}
+
+.div2 {
+  background-color: #f1f1f1;
+  margin-left: 250px; 
+  padding: 16px; 
+}
+
+.div3 {
+  background-color: white;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a class="active" href="#"><b>CSS Tutorial</b></a></li>
+  <li><a href="#">CSS HOME</a></li>
+  <li><a href="#">CSS Introduction</a></li>
+  <li><a href="#">CSS Syntax</a></li>
+  <li><a href="#">CSS Selectors</a></li>
+  <li><a href="#">CSS How to</a></li>
+  <li><a href="#">CSS Comments</a></li>
+  <li><a href="#">CSS Colors</a></li>
+  <li>
+    <a class="dropdown-btn" data-toggle="collapse" href="#cssBackgroundDropdown" aria-expanded="false" aria-controls="cssBackgroundDropdown">CSS Background <span class="caret"></span></a>
+    <div class="collapse" id="cssBackgroundDropdown">
+      <a href="#">Background color</a>
+      <a href="#">Background image</a>
+      <a href="#">Background Repeat</a>
+      <a href="#">Background Attachment</a>
+      <a href="#">Background Shorthand</a>
+    </div>
+  </li>
+  <li><a href="#">CSS Borders</a></li>
+  <li><a href="#">CSS Margin</a></li>
+  <li><a href="#">CSS Padding</a></li>
+  <li><a href="#">CSS Height/Width</a></li>
+  <li><a href="#">CSS Box Model</a></li>
+  <li><a href="#">CSS Outline</a></li>
+  <li><a href="#">CSS Text</a></li>
+  <li><a href="#">CSS Fonts</a></li>
+  <li><a href="#">CSS Icons</a></li>
+  <li><a href="#">CSS Links</a></li>
+  <li><a href="#">CSS Tables</a></li>
+  <li><a href="#">CSS Display</a></li>
+  <li><a href="#">CSS Max-width</a></li>
+  <li><a href="#">CSS Position</a></li>
+  <li><a href="#">CSS Z-index</a></li>
+  <li><a href="#">CSS Overflow</a></li>
+  <li><a href="#">CSS Box Model</a></li>
+  <li><a href="#">CSS Outline</a></li>
+  <li><a href="#">CSS Float</a></li>
+  <li><a href="#">CSS Fonts</a></li>
+  <li><a href="#">CSS Align</a></li>
+  <li><a href="#">CSS Opacity</a></li>
+</ul>
+
+<div class="main">
+  <h3>The CSS background properties are used to add background effects for elements.</h3>
+</div>
+
+<div class="bg">
+  <p>In these chapters, you will learn about the following CSS Background properties:</p>
+  <ol type="a">
+    <li style="color: red;">background-color</li>
+    <li style="color: red;">background-images</li>
+    <li style="color: red;">background-repeat</li>
+    <li style="color: red;">background-attachment</li>
+    <li style="color: red;">background-position</li>
+    <li style="color: red;">background<span style="color: #000;"> (shorthand property)</span></li>
+  </ol>
+</div>
+
+<div class="div1">
+  <h1>CSS background-color</h1>
+  <p>The <span style="color: red;">background-color</span> property specifies the background color of an element.</p>
+</div>
+
+<div class="div2">
+  <h1>Example</h1>
+  <p>The background color of a page is set like this:</p>
+  <div class="div3">
+    <p style="background-color: white;">
+      <span style="color: brown; border-left: 5px solid #04AA6D; padding-left: 5px; padding-bottom: 50px;">body</span>{<br>
+      <span style="color: red; margin-left: 20px;">background-color:</span> <span style="color: skyblue;">lightblue</span>;<br>
+      <span style="margin-left: 20px;">}</span>
+    </p>
+  </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>

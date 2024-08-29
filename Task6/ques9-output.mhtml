@@ -1,0 +1,86 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: file:///D:/Task6/ques9.html
+Subject: Form with Default Values
+Date: Thu, 11 Jul 2024 20:47:25 +0530
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--ugIptzDJvfUUlo6xVbHso4W4lkdADfF417JZNxgwcx----"
+
+
+------MultipartBoundary--ugIptzDJvfUUlo6xVbHso4W4lkdADfF417JZNxgwcx----
+Content-Type: text/html
+Content-ID: <frame-6B2BBB4E22F5D52AE0469DDC90ACB5A2@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///D:/Task6/ques9.html
+
+<!DOCTYPE html><html lang=3D"en"><head><meta http-equiv=3D"Content-Type" co=
+ntent=3D"text/html; charset=3DUTF-8">
+   =20
+    <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=
+=3D1.0">
+    <title>Form with Default Values</title>
+</head>
+<body>
+    <form action=3D"file:///D:/Task6/submit" method=3D"post">
+        <!-- Text Input -->
+        <label for=3D"text-input">Text Input:</label>
+        <input type=3D"text" id=3D"text-input" name=3D"text-input" value=3D=
+"Default name"><br><br>
+
+        <!-- Password Input -->
+        <label for=3D"password-input">Password Input:</label>
+        <input type=3D"password" id=3D"password-input" name=3D"password-inp=
+ut" value=3D"defaultpassword"><br><br>
+
+        <!-- Email Input -->
+        <label for=3D"email-input">Email Input:</label>
+        <input type=3D"email" id=3D"email-input" name=3D"email-input" value=
+=3D"example@example.com"><br><br>
+
+        <!-- Number Input -->
+        <label for=3D"number-input">Number Input:</label>
+        <input type=3D"number" id=3D"number-input" name=3D"number-input" va=
+lue=3D"42"><br><br>
+
+        <!-- Date Input -->
+        <label for=3D"date-input">Date Input:</label>
+        <input type=3D"date" id=3D"date-input" name=3D"date-input" value=3D=
+"2004-03-04"><br><br>
+
+        <!-- Radio Button -->
+        <label>Radio Button:</label>
+        <input type=3D"radio" id=3D"radio1" name=3D"radio-input" value=3D"o=
+ption1" checked=3D"">
+        <label for=3D"radio1">Option 1</label>
+        <input type=3D"radio" id=3D"radio2" name=3D"radio-input" value=3D"o=
+ption2">
+        <label for=3D"radio2">Option 2</label><br><br>
+
+        <!-- Checkbox -->
+        <label for=3D"checkbox-input">Checkbox:</label>
+        <input type=3D"checkbox" id=3D"option1" name=3D"option1" value=3D"B=
+ike">
+        <label for=3D"vehicle1">Option-1</label>
+        <input type=3D"checkbox" id=3D"option2" name=3D"option2" value=3D"C=
+ar">
+        <label for=3D"vehicle2">Option-2</label><br><br><br>
+        <!-- Select Dropdown -->
+        <label for=3D"select-input">Select Dropdown:</label>
+        <select id=3D"select-input" name=3D"select-input">
+            <option value=3D"option1" selected=3D"">Option 1</option>
+            <option value=3D"option2">Option 2</option>
+            <option value=3D"option3">Option 3</option>
+        </select><br><br>
+
+        <!-- Textarea -->
+        <label for=3D"textarea-input">Textarea:</label>
+        <textarea id=3D"textarea-input" name=3D"textarea-input">Default Tex=
+t</textarea><br><br>
+
+        <!-- Submit Button -->
+        <input type=3D"submit" value=3D"Submit">
+    </form>
+
+</body></html>
+------MultipartBoundary--ugIptzDJvfUUlo6xVbHso4W4lkdADfF417JZNxgwcx------
